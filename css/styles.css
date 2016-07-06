@@ -1,0 +1,461 @@
+body {
+	padding-top: 50px;
+	position: relative;
+	background-color: MintCream;
+}
+
+/** typography **/
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+	font-family: Futura, Helvetica, sans-serif;
+}
+
+p,
+li {
+	font-family: "Lucida Console", Monaco, monospace, Courier New, serif;
+}
+
+/** navbar **/
+
+.projectName a {
+	text-decoration: none;
+	padding-left: 10px;
+	color: #9d9d9d;
+	font-family: "Lucida Console", Monaco, monospace, Courier New, serif;
+}
+
+.projectName a:hover {
+	color: #d6c0ae;
+}
+
+.navbar {
+	background-color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #d6c0ae;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-size: 1.2em;
+}
+
+.anchor {
+	padding-top: 50px;
+}
+
+.navbar-collapse ul {
+	padding-right: 20px;
+}
+
+.navbar-inverse {
+	border: none;
+}
+
+/**
+.navbar ul li {
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 5px 10px 20px;
+	float: right;
+	font-weight: 500;
+}
+
+.navbar a {
+	display: inline-block;
+	letter-spacing: 0.05em;
+	padding: 5px 10px 20px;
+	float: left;
+	font-weight: 500;
+	color: lightblue;
+	font-size: 1.5em;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	height: 6%;
+	background-color: #fff;
+}
+
+.navbar ul li a {
+	color: lightblue;
+}
+
+.navbar a:hover {
+	color: #ff0;
+	text-decoration: none;
+}
+
+/** home page **/
+
+#home {
+	color: #2b2828;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.container p a {
+	color: lightblue;
+}
+
+.container button {
+	color: lightblue;
+}
+
+.container button:hover {
+	color: black;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.carousel-caption h1 {
+	color: ghostwhite;
+	font-family: Futura, Helvetica, sans-serif;
+	padding-bottom: 650px;
+	font-size: 4.2em;
+}
+
+/** about page **/
+
+* {box-sizing: border-box;}
+
+#about {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+	padding-top: 50px;
+}
+
+.header h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.about {
+	display: inline-block;
+	float: left;
+}
+
+.intro p {
+	font-family: "Lucida Console", Monaco, monospace, Courier New, serif;
+	font-size: 1.5em;
+	font-weight: 100;
+	-webkit-margin-before: 0;
+}
+
+#skills-list {
+	margin-left: 25px;
+	margin-right: 20px;
+	padding-left: 5px;
+}
+
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.skills {
+	background-color: #5AD1C2;
+	color: #FFF;
+	padding: 30px 30px 30px 25px;
+	font-family: "Lucida Console", Monaco, monospace, Courier New, serif;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+/** Work aka Portfolio
+breakpoints **/
+
+h6 {
+	font-size: 300%;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.work {
+	padding-top: 0px;
+	padding-bottom: 30px;
+}
+
+.work-img {
+	display: block;
+	margin: auto;
+	max-width: 200px;
+	position: relative;
+}
+
+.info {
+	position: absolute;
+	top: 15%;
+	left: 22%;
+	color: #fff;
+	font-family: Futura;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 0.5em;
+	line-height: 1.6;
+	display: none;
+}
+
+.proj-title {
+	font-weight: 100;
+}
+
+/*** contact page
+basket covers contact content
+.reach-me covers contact page **/
+
+* {box-sizing: border-box;}
+
+#reach-me {
+	background-image: url("../img/waterfall.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size:cover;
+}
+
+.cntct {
+	font-family: Futura, Helvetica, sans-serif;
+}
+
+.cntct .header {
+	text-align: center;
+	color: ghostwhite;
+	padding-top: 40px;
+}
+
+.cntct .header h1 {
+	margin-bottom: 5px;
+}
+
+.cntct .header p {
+	font-size: 150%;
+}
+.cntct .communication {
+	text-align: center;
+	color: azure;
+	font-weight: 600;
+	padding-top: 30px;
+}
+
+.cntct .communication p {
+	font-size: 1.2em;
+}
+
+.cntct span {
+	padding: 10px 10px 10px;
+}
+
+.cntct .note {
+	text-align: center;
+	padding-top: 40px;
+	color: Ghostwhite;
+}
+
+.cntct .note p {
+	font-family: "Lucida Console", Monaco, monospace, Courier New, serif;
+	font-size: 1.1em;
+	padding-bottom: 40px;
+}
+
+.contact-info {
+	padding-left: 5%;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+.contact-form {
+	padding-left: 6%;
+}
+
+.contact-form div {
+	display: block;
+}
+
+.header-form {
+	padding-top: 6%;
+	padding-bottom: 3%;
+}
+
+.header-form h7 {
+	margin: auto 0;
+	color: ghostwhite;
+	font-size: 2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#message-box {
+	width: 95%;
+	height: 60%;
+	float: left;
+}
+
+.button-holder {
+margin: auto 0;
+text-align: center;
+margin-bottom: 10%;
+margin-top: 2%;
+width: 15%;
+height: 3%;
+}
+
+#send-message {
+	margin-top: 20%;
+}
+
+#name,
+#email {
+	margin-right: 1%;
+	margin-bottom: 4%;
+	float: left;
+	width: 95%;
+	height: 70%;
+}
+
+#visible-comment {
+	color: white;
+	font-weight: 600;
+	margin: auto;
+	text-align: center;
+}
+
+#char-count {
+	color: white;
+	font-weight: 400;
+	margin: auto;
+	text-align: right;
+	padding-right: 25%;
+}
+
+/** FAQ page **/
+
+h5 {
+	font-size: 300%;
+	text-align: left;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.panel-heading {
+	font-family: Futura, Helvetica, sans-serif;
+	/**background-color: #f5f !important;**/
+}
+
+.panel-title {
+	color: darkslategray;
+}
+
+.panel-body {
+	font-family: Andale Mono, Book Antiqua, Didot, serif;
+	background-color: snow;
+	color: dimgray;
+}
+
+.panel-group {
+	padding-bottom: 40px;
+}
+
+#faq span {
+	padding: 10px 10px 10px;
+}
+
+#faq .row {
+	width: 1140px;
+	margin: 0;
+}
+
+.learn-more {
+	text-align: left;
+	float: left;
+	display: inline-block;
+}
+
+.modal-button {
+	float: right;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: inline-block;
+}
+
+#modalembed {
+	height: 500px;
+	width: 100%;
+	padding: 10px;
+}
+
+/** footer **/
+
+.footer {
+	font-family: Futura, Helvetica, sans-serif;
+}
+
+.footer-twitter {
+	float: right;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+}
+
+/**.fb-share-button iframe {
+	vertical-align: top !important;
+	margin-bottom: 5% !important;
+}
+
+span {
+	height: 0 !important;
+	width: 0 !important;
+	padding: 0 !important;
+}**/
+
+.fb-share-button {
+	/**padding: 0;
+	height: 0;
+	width: 0;**/
+	position: absolute;
+	vertical-align: top;
+	float: right;
+	/**margin-right: 5%;
+	margin-top: 0;
+	margin-bottom: 5%;**/
+	display: inline-block;
+	transform: scale(2.5);
+	-ms-transform: scale(2.5);
+	-webkit-transform: scale(2.5);
+	-o-transform: scale(2.5);
+	-moz-transform: scale(2.5);
+	transform-origin: top left;
+	-ms-transform-origin: top left;
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-webkit-transform-origin: top left;
+}
+
+.footer li {
+	display: inline;
+	float: right;
+}
