@@ -7,6 +7,6 @@ var works = [
 	{
 		title: "Voracious Vinyls",
 		pic: "img/steviepetal.jpg",
-		url: "http://www.vovi.herokuapp.com"
+		url: "https://vovi.herokuapp.com/"
 	}
 ]
