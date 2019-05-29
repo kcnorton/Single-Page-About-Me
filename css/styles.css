@@ -369,10 +369,9 @@ height: 3%;
 
 h5 {
 	font-size: 300%;
-	text-align: left;
-	float: left;
+	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 }
 
 .btn-primary {
@@ -409,16 +408,11 @@ h5 {
 }
 
 .learn-more {
-	text-align: left;
-	float: left;
-	display: inline-block;
 }
 
 .modal-button {
-	float: right;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	display: inline-block;
+	padding-bottom: 25px;
+	text-align: center;
 }
 
 #modalembed {
