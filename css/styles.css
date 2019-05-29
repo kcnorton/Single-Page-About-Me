@@ -1,7 +1,7 @@
 body {
 	padding-top: 50px;
 	position: relative;
-	background-color: MintCream;
+	background-color: #fff;
 }
 
 /** typography **/
@@ -33,7 +33,7 @@ li {
 }
 
 .navbar {
-	background-color: black;
+	background-color: #fff;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -53,7 +53,7 @@ li {
 }
 
 .navbar-inverse {
-	border: none;
+	border-bottom: 3px solid black;
 }
 
 /**
@@ -95,6 +95,8 @@ li {
 	text-decoration: none;
 }
 
+**/
+
 /** home page **/
 
 #home {
@@ -121,7 +123,7 @@ li {
 }
 
 .carousel-caption h1 {
-	color: ghostwhite;
+	color: #fff;
 	font-family: Futura, Helvetica, sans-serif;
 	padding-bottom: 650px;
 	font-size: 4.2em;
@@ -169,9 +171,8 @@ li {
 }
 
 .skills {
-	background-color: #5AD1C2;
-	color: #FFF;
-	padding: 30px 30px 30px 25px;
+	background-color: #fff;
+	color: black;
 	font-family: "Lucida Console", Monaco, monospace, Courier New, serif;
 }
 
@@ -206,14 +207,15 @@ h6 {
 .info {
 	position: absolute;
 	top: 15%;
-	left: 22%;
-	color: #fff;
+	outline-color: lightblue;
+	color: black;
 	font-family: Futura;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 0.5em;
 	line-height: 1.6;
-	display: none;
+	padding-right: 2em;
+	padding-left: 2em;
 }
 
 .proj-title {
@@ -227,7 +229,7 @@ basket covers contact content
 * {box-sizing: border-box;}
 
 #reach-me {
-	background-image: url("../img/waterfall.jpg");
+	background-image: url("../img/prague.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
@@ -241,7 +243,8 @@ basket covers contact content
 
 .cntct .header {
 	text-align: center;
-	color: ghostwhite;
+	color: black;
+	outline-color: ghostwhite;
 	padding-top: 40px;
 }
 
@@ -250,17 +253,18 @@ basket covers contact content
 }
 
 .cntct .header p {
-	font-size: 150%;
+	font-size: 1em;
 }
 .cntct .communication {
 	text-align: center;
-	color: azure;
+	color: black;
+	outline-color: ghostwhite;
 	font-weight: 600;
-	padding-top: 30px;
+	background-color: #fff;
 }
 
 .cntct .communication p {
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 .cntct span {
@@ -270,12 +274,14 @@ basket covers contact content
 .cntct .note {
 	text-align: center;
 	padding-top: 40px;
-	color: Ghostwhite;
+	color: black;
+	outline-color: ghostwhite;
+	background-color: #fff;
 }
 
 .cntct .note p {
 	font-family: "Lucida Console", Monaco, monospace, Courier New, serif;
-	font-size: 1.1em;
+	font-size: 1em;
 	padding-bottom: 40px;
 }
 
@@ -284,8 +290,9 @@ basket covers contact content
 }
 
 #map {
-	height: 400px;
-	width: 100%;
+	height: 25em;
+	width: 25em;
+	margin: auto;
 }
 
 .contact-form {
@@ -301,12 +308,18 @@ basket covers contact content
 	padding-bottom: 3%;
 }
 
+.contactName {
+	background-color: #fff;
+}
+
 .header-form h7 {
 	margin: auto 0;
-	color: ghostwhite;
+	color: black;
+	outline-color: ghostwhite;
 	font-size: 2em;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	background-color: #fff;
 }
 
 #message-box {
@@ -338,14 +351,14 @@ height: 3%;
 }
 
 #visible-comment {
-	color: white;
+	color: #fff;
 	font-weight: 600;
 	margin: auto;
 	text-align: center;
 }
 
 #char-count {
-	color: white;
+	color: #fff;
 	font-weight: 400;
 	margin: auto;
 	text-align: right;
@@ -362,19 +375,25 @@ h5 {
 	padding-bottom: 30px;
 }
 
+.btn-primary {
+	background-color: #fff;
+	color: lightblue;
+	border-color: #ccc;
+}
+
 .panel-heading {
 	font-family: Futura, Helvetica, sans-serif;
 	/**background-color: #f5f !important;**/
 }
 
 .panel-title {
-	color: darkslategray;
+	color: black;
 }
 
 .panel-body {
 	font-family: Andale Mono, Book Antiqua, Didot, serif;
-	background-color: snow;
-	color: dimgray;
+	background-color: #fff;
+	color: black;
 }
 
 .panel-group {
@@ -386,7 +405,6 @@ h5 {
 }
 
 #faq .row {
-	width: 1140px;
 	margin: 0;
 }
 
@@ -413,6 +431,13 @@ h5 {
 
 .footer {
 	font-family: Futura, Helvetica, sans-serif;
+  	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 1rem;
+  	background-color: #efefef;
+  	text-align: center;
 }
 
 .footer-twitter {

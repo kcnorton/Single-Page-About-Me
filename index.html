@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name = "viewport" content = "width=device-width; initial-scale = 1; maximum-scale=1; user-scalable = no;" />
+
+
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <title>kcn</title>
@@ -22,7 +25,6 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar">
-
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
@@ -39,19 +41,19 @@
         </nav><!--end nav header-->
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#reach-me">Reach Me</a></li>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#reach-me">contact</a></li>
             <li><a href="#faq">FAQ</a></li>
           </ul>
         </div><!--end nav collapse-->
       </div><!--end nav container-fluid-->
     </div><!--end navbar-->
-    <div class="container" id="home">
-      <h1>Kara Norton. Web Developer.</h1>
-        <p><strong>Making the web a better place one achievement at a time.</strong> This responsive website is the beginning. Stay tuned for more content.  <br><a href="#work" title="More information" id="item1">Updates below.</a></p>
-    </div><!--end container-->
+    <div class="container-fluid" id="home">
+      <h1>Kara Norton. software engineer, rock climber, distance runner.</h1>
+        <p>A blog about some parts of my life.  <br><a href="#work" title="More information" id="item1">Updates below.</a></p>
+    </div><!--end container fluid-->
     <div class="container-fluid">
       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -66,19 +68,19 @@
       <div class="item active">
         <img src="img/dscn0368.jpg" alt="img/reykjavik.jpg">
         <div class="carousel-caption">
-        <h1>Natural</h1>
+        <!--<h1>Natural</h1>-->
         </div>
       </div>
       <div class="item">
         <img src="img/reykjavik.jpg" alt="img/surfdoom.jpg">
         <div class="carousel-caption">
-        <h1>Purposeful</h1>
+        <!--<h1>Purposeful</h1>-->
         </div>
       </div>
       <div class="item">
         <img src="img/surfdoom.jpg" alt="img/dscn0368.jpg">
         <div class="carousel-caption">
-        <h1>Unexpected</h1>
+        <!--<h1>Unexpected</h1>-->
         </div>
       </div>
     </div>
@@ -95,44 +97,44 @@
   </div><!--end container-fluid-->
 
       <!-- Example row of columns -->
-    <div class="container">  
+    <div class="container-fluid">  
       <div class="row">
         <div class="col-md-4 col-xs-12">
-          <h2 id="home-h2">Portfolio Concept</h2>
-          <p>I want to eventually add content I create through Career Foundry courses, of course. I have a background in chemical engineering and 18 months of manufacturing experience in a specialty chemicals plant. I also recieved a minor in Business Administration. Still thinking about the design of this section. </p>
+          <h2 id="home-h2">Software Engineering</h2>
+          <p>I'm pursuing my Master's in Computer Science from Georgia Tech. My specialization is in Computing Systems. Throughout my courses, I developed a database application from scratch, implemented test driven development for small Android apps, written a research paper on game-based learning and gender-inclusive game design, and more. I've also built an e-commerce web app during a self-paced full stack course. In addition, I completed a CS Bridge Program through NYU in preparation for my Master's. </p>
           <p>
-            <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">View Details.</button>
+            <a href="#work"><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Software engineering">View Details.</button></a>
           </p>
         </div><!-- /col -->
         <div class="col-md-4 col-xs-12">
-          <h2>Project Goals</h2>
-          <p>My deadline for course completion is May 2016, before would be better though. I plan to commit a minimum of 4 days a week. I want to be timely but thorough. </p>
-          <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">View Details.</button></p>
+          <h2>Rock Climbing</h2>
+          <p>Growing up, I learned how to rock climb at a summer camp in North Carolina. About 9 years ago, I found a local climbing gym, signed up for a membership, and been climbing ever since. From local competitions to outside climbing destinations to indoor route setting, the climbing community has become an integral part of my life.  </p>
+          <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Rock climbing">View Details.</button></p>
        </div><!-- /col -->
         <div class="col-md-4 col-xs-12">
-          <h2>Career Goals</h2>
-          <p>I am transitioning from a career in chemical engineering to web development. The full stack web developer course is great because it includes not just front-end work, etc. I want to learn as much as possible. I want to get hired preferably by a startup, or a company with a similar environment. In the long run I hope to work for myself, but I realize I am a long way away. </p>
-          <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">View Details.</button></p>
+          <h2>Distance Running</h2>
+          <p>I've always enjoyed running as an activity, but in 2015 my two sisters and I signed up for the Chicago Marathon together. Before that, I had never run more than 8 miles at a time. Now distance running has become one of my favorite hobbies. I've run a total of 5 marathons with more on the docket.  </p>
+          <p><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Distance running">View Details.</button></p>
         </div><!-- /col -->
       </div><!-- /row -->
-    </div><!-- /container -->
+    </div><!-- /container-fluid -->
     
 
   <!--begin about-->
     <div class="container-fluid" id="about">
       <div class="header">
-      <h1>Everything you wanted to know about kcn.</h1>
+      <h1>About Kara</h1>
       </div> <!--ends header-->
       <div class="row">
         <div class="col-md-4 col-xs-12">
           <div class="about selfie">
-            <img src="img/dscn0029.jpg" alt="portland" height="200" width="250">
+            <img src="img/selfprague.jpg" alt="portland" height="250" width="250">
           </div> <!--ends image-->
         </div><!--ends column-->
         <div class="col-md-4 col-xs-12">
           <div class="about intro">
             <h2>The short story...</h2>
-              <p>Kara is a fun-loving, hard-working, personality with a background in Chemical Engineering and a passion for web development.</p>
+              <p>Kara is a fun-loving, hard-working, personality with a background in Computer Science and a passion for mountaineering.</p>
           </div><!--ends intro-->
         </div><!--ends column-->
         <div class="col-md-4 col-xs-12">
@@ -143,9 +145,13 @@
                 <li>CSS3</li>
                 <li>JavaScript</li>
                 <li>jQuery</li>
+                <li>Java</li>
+                <li>C++</li>
                 <li>Ruby</li>
                 <li>AngularJS</li>
                 <li>AJAX</li>
+                <li>R</li>
+                <li>SQL</li>
                 <li>Git</li>
               </ul>
           </div><!--ends skills-->
@@ -153,84 +159,46 @@
         <div class="col-md-12 col-xs-12">
           <div class="main-text">
             <h3>The long story...</h3>
-              <p>Kara Norton was born September 12, 1990 on a humid afternoon in Sarasota, FL. She graduated from the University of Florida with a B.S. in Chemical Engineering. She was President of the Rock Climbing Club during her undergraduate career, and continues to spend free time climbing endless boulders. The last 23 months of her life have been dedicated to traveling, learning, and working as a Process Engineer at a Specialty Chemicals Company.</p>
+              <p>Kara Norton was born September 12, 1990 on a humid afternoon in Sarasota, FL. She graduated from the University of Florida with a B.S. in Chemical Engineering. She worked as a Process Engineer for 3 years before pursuing her Master's degree in Computer Science. The last 2 years of her life have been dedicated to her studies at Georgia Tech.</p>
           </div><!--ends main text-->
         </div><!--ends column-->
       </div><!--ends row-->
     </div><!--ends about page-->
 
   <!--portfolio overview-->
-    <div class="container" id="work">
+    <div class="container-fluid" id="work">
       <div class="work-header">
         <h6>Work</h6>
       </div><!--end work header-->
       <div class="row" id="portfolio">
-        <!--<div class="col-md-3 col-xs-6">
-          <div class="work">
-            <img src="img/pdx.jpg" class="img-responsive" alt="alternative text" title="Work1" href="#work" id="imgtooltip">
-          </div><!--ends image
-        </div><!--ends column
-        <div class="col-md-3 col-xs-6">
-          <div class="work">
-            <img src="img/pdx.jpg" class="img-responsive" alt="alternative text" title="Work2" href="#work" id="imgtooltip">
-          </div><!--ends image
-        </div><!--ends column
-        <div class="col-md-3 col-xs-6">
-          <div class="work">
-            <img src="img/pdx.jpg" class="img-responsive" alt="alternative text" title="Work3" href="#work" id="imgtooltip">
-          </div><!--ends image
-        </div><!--ends column
-        <div class="col-md-3 col-xs-6">
-          <div class="work">
-            <img src="img/pdx.jpg" class="img-responsive" alt="alternative text" title="Work4" href="#work" id="imgtooltip">
-          </div><!--ends image
-        </div><!--ends column
-        <div class="col-md-3 col-xs-6">
-          <div class="work">
-            <img src="img/pdx.jpg" class="img-responsive" alt="alternative text" title="Work5" href="#work" id="imgtooltip">
-          </div><!--ends image
-        </div><!--ends column
-        <div class="col-md-3 col-xs-6">
-          <div class="work">
-            <img src="img/pdx.jpg" class="img-responsive" alt="alternative text" title="Work6" href="#work" id="imgtooltip">
-          </div><!--ends image
-        </div><!--ends column
-        <div class="col-md-3 col-xs-6">
-          <div class="work">
-            <img src="img/pdx.jpg" class="img-responsive" alt="alternative text" title="Work7" href="#work" id="imgtooltip">
-          </div><!--ends image
-        </div><!--ends column
-        <div class="col-md-3 col-xs-6">
-          <div class="work">
-            <img src="img/pdx.jpg" class="img-responsive" alt="alternative text" title="Work7" href="#work" id="imgtooltip">
-          </div><!--ends image
-        </div><!--ends column-->
       </div><!--ends row-->
-    </div><!--ends container--> 
+    </div><!--ends container-fluid--> 
 
   <!--begin contact-->
     <div class="container-fluid" id="reach-me" data-stellar-background-ratio="0.5">
       <div class="cntct">
-        <div class="contact-info col-lg-4 col-md-4 col-xs-4">
+        <div class="contact-info col-lg-6 col-md-6 col-xs-12">
           <div class="header">
             <!--<iframe width="100%" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Baltimore%2C%20MD%2C%20United%20States&key=AIzaSyAa62No4GNZLkx7DMnN4kFCIdr_fMAneKg" allowfullscreen></iframe>-->
             <div id="map">
             </div><!--end map-->
-            <h1>Kara Catherine Norton</h1>
-              <p>Web Developer</p>
+            <!--<div class="contactName">
+              <p>Kara Catherine Norton</p>
+                <p>Software Engineer</p>
+            </div>-->
           </div><!--end header-->
-          <div class="communication">
-            <h2><span class="glyphicon glyphicon-envelope"></span>nortonkara057@gmail.com</h2>
+          <!--<div class="communication">
+            <p><span class="glyphicon glyphicon-envelope"></span>nortonkara057@gmail.com</p>
               <p><span class="glyphicon glyphicon-phone"></span>1.941.350.6257</p>
-              <p><span class="glyphicon glyphicon-map-marker"></span>Baltimore, Maryland</p>
-          </div><!--ends info-->
-          <div class="note">
-          <p>If you would like to connect, feel free to reach out.<br>The best way to catch me is by e-mail.</p>
-          </div><!--ends note-->
+              <p><span class="glyphicon glyphicon-map-marker"></span>Brooklyn, NY</p>
+          </div>--><!--ends info-->
+          <!--<div class="note">
+          <p>Feel free to reach out.<br>The best way to catch me is by e-mail.</p>
+          </div>--><!--ends note-->
         </div><!--ends contact-info-->
-        <div class="contact-form col-lg-8 col-md-8 col-xs-8">
+        <div class="contact-form col-lg-6 col-md-6 col-xs-12">
           <div class="header-form">
-            <h7>Say Hello Below.</h7>
+            <h7>Say Hello.</h7>
           </div><!--end header-->
           <form>
             <div class="name-div">
@@ -255,12 +223,14 @@
     </div><!--ends contact page-->
 
   <!--begin FAQ-->
-    <div class="container" id="faq">
+    <div class="container-fluid" id="faq">
       <div class="row">
-        <h5 class="learn-more">Learn More</h5>
-        <div class="modal-button">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">View Resume</button>
-        </div><!--end modal-button-->
+        <div class="col-md-12 col-xs-12">
+          <h5 class="learn-more">FAQ</h5>
+          <div class="modal-button">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">View Resume</button>
+          </div><!--end modal-button-->
+        </div><!--ends column-->
       </div><!--end row-->
       <!--modal window-->
       <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
@@ -271,8 +241,8 @@
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div><!--end modal header-->
             <div class="modal-body">
-              <p>some example text</p>
-              <embed id="modalembed" src="../img/Kara's resume edits by sally.pdf">
+              <p>Updated May 2019</p>
+              <embed id="modalembed" src="../img/Kara Norton Resume 2019.pdf">
             </div><!--end modal-body-->
           </div><!--end modal-content-->
         </div><!--end modal-dialog-->
@@ -283,13 +253,13 @@
           <div class="panel-heading">
             <h4 class="panel-title">
               <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-pushpin"></span>
-              Why did you decide to become a web developer?
+              Why did you decide to become a software engineer?
               </a>
             </h4>
           </div><!--ends panel-heading-->
           <div id="collapseOne" class="panel-collapse collapse in">
             <div class="panel-body">
-              I decided to pursue web development because it’s always been a field I’ve been interested in, but never knew how to get involved. I like that web development is technical, yet it can be a creative outlet. 
+              I decided to pursue software engineering because it’s always been a field I’ve been interested in, but never knew how to get involved. I like that software engineering is technical, yet it can be a creative.
             </div><!--ends panel-body-->
           </div><!--ends panel-collapse collapse in-->
         </div><!--ends panel panel-default-->
@@ -297,13 +267,13 @@
           <div class="panel-heading">
             <h4 class="panel-title">
               <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-pushpin"></span>
-              What is your design process?
+              What has been your favorite class in your Master's program?
               </a>
             </h4>
           </div><!--ends panel-heading-->
           <div id="collapseTwo" class="panel-collapse collapse">
             <div class="panel-body">
-            My design process begins with a skeletal framework and grows organically through the development.
+            My favorite class has been Human Computer Interaction because I think usability is just as important as functionality. I'm currently taking algorithms, which has also been enjoyable so far. 
             </div><!--ends panel-body-->
           </div><!--ends panel-collapse collapse-->
         </div><!--ends panel panel-default-->
@@ -311,41 +281,15 @@
           <div class="panel-heading">
             <h4 class="panel-title">
               <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-pushpin"></span>
-              What is your average project turnaround?
+              Do you prefer front-end or back-end work?
               </a>
             </h4>
           </div><!--ends panel-heading-->
           <div id="collapseThree" class="panel-collapse collapse">
             <div class="panel-body">
-            Currently, there is none!
+            I enjoy working on and learning more about both ends!
             </div><!--ends panel-body-->
           </div><!--ends panel-collapse collapse-->
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-pushpin"></span>
-                Do you prefer front-end or back-end work?
-                </a>
-              </h4>
-            </div><!--ends panel-heading-->
-            <div id="collapseFour" class="panel-collapse collapse">
-              <div class="panel-body">
-              Considering I have only learned front-end development thus far, I would say front-end.
-              </div><!--ends panel-body-->
-          </div><!--ends panel-collapse collapse-->
-          <div class="panel panel-default">
-            <div class="panel-heading">
-              <h4 class="panel-title">
-                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class="glyphicon glyphicon-pushpin"></span>
-                What is your favorite project?
-                </a>
-              </h4>
-            </div><!--ends panel-heading-->
-            <div id="collapseFive" class="panel-collapse collapse">
-              <div class="panel-body">
-              Career Foundry!
-              </div><!--ends panel-body-->
-            </div><!--ends panel-collapse collapse-->
       </div><!--ends panel-group-->
     </div><!--ends FAQ page-->
 
@@ -353,22 +297,22 @@
 
     <footer class="container-fluid">
       <div class="footer">
-        &copy kcn 2016
-        <ul>
+        &copy kcn 2019
+        <!--<ul>
           <li>
             <div class="footer-twitter">
               <a href="https://twitter.com/notronarak" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @notronarak
               </a>
             </div><!--end twitter-->
-          </li>
+          <!--</li>
           <li>
           <!--facebook share button-->
-            <div class="social" id="fb-root"></div>
+            <!--<div class="social" id="fb-root"></div>
           <!--end facebook share button-->
-            <div class="fb-share-button" data-href="https://kcn.io" data-layout="icon">
+            <!--<div class="fb-share-button" data-href="https://kcn.io" data-layout="icon">
             </div><!--ends facebook-->
-          </li>
-        </ul>
+          <!--</li> 
+        </ul> -->
       </div><!--end footer-->  
     </footer>
 

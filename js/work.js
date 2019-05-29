@@ -1,22 +1,12 @@
 var works = [
 	{
-		title: "eCommerce Web App - Voracious Vinyls",
-		pic: "img/pdx.jpg",
-		url: "www.vovi.herokuapp.com"
+		title: "github",
+		pic: "img/steviepetal.jpg",
+		url: "http://www.github.com/kcnorton"
 	},
 	{
-		title: "Work2",
-		pic: "img/pdx.jpg",
-		url: "#"
-	},
-	{
-		title: "Work3",
-		pic: "img/pdx.jpg",
-		url: "#"
-	},
-	{
-		title: "Work4",
-		pic: "img/pdx.jpg",
-		url: "#"
+		title: "Voracious Vinyls",
+		pic: "img/steviepetal.jpg",
+		url: "http://www.vovi.herokuapp.com"
 	}
 ]

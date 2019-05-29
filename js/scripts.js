@@ -56,7 +56,7 @@ $(document).ready(function() {
   });
 
   //Textarea background color change
-  $("#message-box").css("background-color", "lightblue");
+  $("#message-box").css("background-color", "#fff");
 
   //Append info to DOM and hide form
   $("#send-message").on("click", function() {
@@ -104,11 +104,11 @@ $(document).ready(function() {
   //Work section
   for(var i=0; i < works.length; ++i) {
   	$("#portfolio").append("\
-  		<div class='col-md-3 col-xs-6'>\
+  		<div class='col-md-6 col-xs-12'>\
           <div class='work'>\
-          	<a href='#' class='work-img'>\
+          	<a href='" + works[i].url + "' class='work-img'>\
             	<img src='" + works[i].pic + "' class='img-responsive'>\
-          		<span class='info'><p class='proj-title'>Title:</p> '" + works[i].title + "' </span>\
+          		<span class='info'> '" + works[i].title + "' </span>\
           	</a>\
           </div>\
         </div>\
@@ -116,9 +116,9 @@ $(document).ready(function() {
     var images = $("#portfolio img");
     	console.log(images);
 		if (i%2 === 0) {
-	  	$(images[i]).css("border", "2px solid DodgerBlue");
+	  	$(images[i]).css("border", "2px solid lightblue");
 		} else {
-			$(images[i]).css("border", "2px solid salmon");
+			$(images[i]).css("border", "2px solid lightblue");
 		}; //end conditional border color
   }; //end works array loop
 
