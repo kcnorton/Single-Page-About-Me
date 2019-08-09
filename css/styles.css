@@ -2,6 +2,9 @@ body {
 	padding-top: 50px;
 	position: relative;
 	background-color: #fff;
+	margin-right: auto; 
+	margin-left: auto;
+	max-width: 80em;
 }
 
 /** typography **/
@@ -46,6 +49,12 @@ li {
 
 .anchor {
 	padding-top: 50px;
+}
+
+.container-fluid {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80em;
 }
 
 .navbar-collapse ul {
@@ -133,11 +142,6 @@ li {
 
 * {box-sizing: border-box;}
 
-#about {
-	width: 80%;
-	margin: 0 auto;
-}
-
 .header {
 	padding-top: 50px;
 }
@@ -200,12 +204,10 @@ h6 {
 .work-img {
 	display: block;
 	margin: auto;
-	max-width: 200px;
 	position: relative;
 }
 
 .info {
-	position: absolute;
 	top: 15%;
 	outline-color: lightblue;
 	color: black;
@@ -214,8 +216,6 @@ h6 {
 	font-weight: 700;
 	letter-spacing: 0.5em;
 	line-height: 1.6;
-	padding-right: 2em;
-	padding-left: 2em;
 }
 
 .proj-title {

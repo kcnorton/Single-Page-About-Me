@@ -104,12 +104,12 @@ $(document).ready(function() {
   //Work section
   for(var i=0; i < works.length; ++i) {
   	$("#portfolio").append("\
-  		<div class='col-md-4 col-xs-12'>\
+  		<div class='col-md-12 col-xs-12'>\
           <div class='work'>\
           	<a href='" + works[i].url + "' class='work-img'>\
-            	<img src='" + works[i].pic + "' class='img-responsive'>\
           		<span class='info'> '" + works[i].title + "' </span>\
           	</a>\
+            <span class='description'>" + works[i].description + " </span>\
           </div>\
         </div>\
     ");
@@ -122,10 +122,10 @@ $(document).ready(function() {
 		}; //end conditional border color
   }; //end works array loop
 
-  $(".work-img").mouseenter(function(){
+  /*$(".work-img").mouseenter(function(){
   	$(".info", this).show();
 	}).mouseleave(function(){
   	$(".info", this).hide();
-	});
+	});*/
 
   }); //Close Document
