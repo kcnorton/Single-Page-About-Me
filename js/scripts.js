@@ -104,7 +104,7 @@ $(document).ready(function() {
   //Work section
   for(var i=0; i < works.length; ++i) {
   	$("#portfolio").append("\
-  		<div class='col-md-6 col-xs-12'>\
+  		<div class='col-md-4 col-xs-12'>\
           <div class='work'>\
           	<a href='" + works[i].url + "' class='work-img'>\
             	<img src='" + works[i].pic + "' class='img-responsive'>\
